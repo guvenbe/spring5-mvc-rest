@@ -27,7 +27,7 @@ public class CustomerDTOTest {
 
         //then
         assertEquals(Long.valueOf(ID),customerDTO.getId());
-        assertEquals(LAST_NAME,customerDTO.getLastName());
+        assertEquals(LAST_NAME,customerDTO.getLastname());
         assertEquals(FIRST_NAME,customerDTO.getFirstname());
     }
 
