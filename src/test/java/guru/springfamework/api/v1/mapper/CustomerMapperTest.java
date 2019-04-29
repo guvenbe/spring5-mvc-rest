@@ -1,12 +1,13 @@
-package guru.springfamework.api.v1.model;
+package guru.springfamework.api.v1.mapper;
 
 import guru.springfamework.api.v1.mapper.CustomerMapper;
+import guru.springfamework.api.v1.model.CustomerDTO;
 import guru.springfamework.domain.Customer;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class CustomerDTOTest {
+public class CustomerMapperTest {
 
     public static final long ID = 1L;
     private static final String FIRST_NAME ="Michael";

@@ -1,13 +1,14 @@
-package guru.springfamework.api.v1.model;
+package guru.springfamework.api.v1.mapper;
 
 import guru.springfamework.api.v1.mapper.CategoryMapper;
+import guru.springfamework.api.v1.model.CategoryDTO;
 import guru.springfamework.domain.Category;
 import guru.springfamework.repositories.CategoryRepository;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class CategoryDTOTest {
+public class CategoryMapperTest {
 
     public static final String NAME = "Joe";
     public static final long ID = 1L;
